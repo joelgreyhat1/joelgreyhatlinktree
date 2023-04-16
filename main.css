@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+
+  transition: all 0.3s ease-in-out;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.logo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 8%;
+  border-color: yelli
+}
+.logoContainer {
+  margin: 1rem 0;
+  position: relative;
+  height: 225px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  border: yellow;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  height: 2.75rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+
+  margin: 0.5rem 0;
+  border-radius: 19px;
+}
+
+.greetings {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+}
+.about {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+  }
+.link span {
+  width: 80%;
+  text-align: center;
+}
+.link img {
+  height: 1.5rem;
+  aspect-ratio: 1;
+  border-color: black;
+}
+.linkIcon {
+  height: 1.5rem !important;
+  aspect-ratio: 1;
+}
+.link:nth-child(1) {
+  background: linear-gradient(to left, lightblue, lightgreen)
+}
+.link:nth-child(2) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(3) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(4) {
+ background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(5) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(6) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(7) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(8) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(9) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(10) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:nth-child(11) {
+  background: linear-gradient(to left, lightblue, lightgreen )
+}
+.link:hover {
+  filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2));
+  transform: scale(1.05);
+}
+.link > * {
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.1s;
+}
+.link:hover > * {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: 100%;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .link span {
+    width: 70%;
+    text-align: center;
+  }
+  .link {
+    width: 95vw;
+  }
+  .link:hover {
+    transform: scale(1.01);
+  }
+}
